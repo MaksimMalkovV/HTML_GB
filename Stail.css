@@ -1,0 +1,40 @@
+html{
+    background-color: rgb(58, 185, 145);
+}
+h1{
+    color: rgb(235, 207, 172);
+    font-family: 'Teddy',sans-serif;
+}
+
+h2{
+    color: azure;
+}
+
+a{
+    color: rgb(13, 146, 35);
+}
+
+img{
+    width: 500px;
+}
+.paig_1{
+    width: 300px;
+}
+.num_1{
+    font-size: 1.5rem;
+    color: rgb(196, 49, 157);
+}
+
+ul{
+    list-style-type: georgian;
+}
+
+@font-face {
+	font-family: 'Teddy';
+	src: url('fons/fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('fons/fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fons/fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fons/fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fons/fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fons/fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
